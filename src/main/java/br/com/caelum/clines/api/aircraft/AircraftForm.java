@@ -12,7 +12,7 @@ import javax.validation.constraints.Positive;
 
 @Data
 @NoArgsConstructor(access = AccessLevel.PACKAGE)
-public class AircraftForm {
+class AircraftForm {
     @JsonIgnore
     private AircraftModel model;
 
